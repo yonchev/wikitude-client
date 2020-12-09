@@ -1,0 +1,21 @@
+{
+  "name": "wikitude_client",
+  "version": "3.0.0",
+  "description": "The_Wikitude_Studio_API_is_a_RESTful_API_which_is_used_to_organize_and_manipulate_projects_and_its_targets_create_wtcwto_files_which_can_be_used_to_create_trackers_in_the_Wikitude_SDK_with_the_JavaScript_API_generatepublish_a_cloud_archive_to_the_cloud_recognition_service__image_targets_onlyDownload_API_clients__OpenAPI_3_0_httpswww_wikitude_comexternaldocdocumentationstudio_apiclientswikitude_studio_api_client_openapi_zip__JavaScript_httpswww_wikitude_comexternaldocdocumentationstudio_apiclientswikitude_studio_api_client_javascript_zip__Python_httpswww_wikitude_comexternaldocdocumentationstudio_apiclientswikitude_studio_api_client_python_zip__PHP_httpswww_wikitude_comexternaldocdocumentationstudio_apiclientswikitude_studio_api_client_php_zip__TypeScript__NodeJS_httpswww_wikitude_comexternaldocdocumentationstudio_apiclientswikitude_studio_api_client_typescript_node_zip__Java_httpswww_wikitude_comexternaldocdocumentationstudio_apiclientswikitude_studio_api_client_java_zip__Ruby_httpswww_wikitude_comexternaldocdocumentationstudio_apiclientswikitude_studio_api_client_ruby_zipThis_technical_reference_formally_explains_various_API_endpoints_Visit_the__Studio_API_documentation_httpswww_wikitude_comexternaldocdocumentationstudio_for_a_more_general_description_",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
